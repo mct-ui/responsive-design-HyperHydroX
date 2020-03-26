@@ -226,6 +226,10 @@ a:focus {
     max-width: 70.5em; /* 90 * 16px = 1440px */
 }
 
+.o-hidden {
+    display: none;
+}
+
 /*
     Objects: Layout
     ---
