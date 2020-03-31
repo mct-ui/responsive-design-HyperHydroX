@@ -195,6 +195,10 @@ a:focus {
     display: flow-root;
 }
 
+.o-row--background {
+    background-color: #F7F7F7
+}
+
 /* size modifiers */
 
 .o-row--lg {
