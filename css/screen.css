@@ -485,7 +485,6 @@ a:focus {
     .c-header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
     }
 
     .c-header__nav {
@@ -629,7 +628,58 @@ a:focus {
     background-color: #FFFFFF;
 }
 
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
 
+.c-footer {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 -16px;
+}
+
+.c-footer__logo {
+    height: 32px;
+}
+
+.c-footer__nav {
+
+}
+
+@media (min-width: 768px) {
+    .c-footer {
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__nav {
+    }
+}
+
+@media (min-width: 992px) {
+    .c-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__logo .c-logo {
+    }
+
+    .c-footer__nav {
+         display: block;
+    }
+
+    .c-footer__nav--switch {
+        order: -1;
+    }
+
+}
 
 
 /*------------------------------------*\
@@ -867,7 +917,7 @@ a:focus {
     }
     .u-1-of-6-bp4 {
         flex-basis: calc(100% / 6) !important;
-    }
+    } 
     .u-5-of-6-bp4 {
         flex-basis: calc(100% / 6 * 5) !important;
     }
