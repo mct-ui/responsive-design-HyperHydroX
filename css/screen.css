@@ -195,8 +195,13 @@ a:focus {
     display: flow-root;
 }
 
-.o-row--background {
+.o-row__background {
     background-color: #F7F7F7
+}
+
+.o-row__background--gradient {
+    color: #FFFFFF;
+    background: linear-gradient(to top, #5051DB 0%, #3887F7 100%);
 }
 
 /* size modifiers */
@@ -610,6 +615,19 @@ a:focus {
     background-color: #3E3EA8;
 }
 
+.c-link-cta—-inverse,
+.c-link-cta—-inverse:visited,
+.c-link-cta—-inverse:active {
+    color: #FFFFFF;
+}
+
+.c-link-cta—-inverse::after {
+    background-color: #FFFFFF;
+}
+
+.c-link-cta—-inverse:hover::after {
+    background-color: #FFFFFF;
+}
 
 
 
